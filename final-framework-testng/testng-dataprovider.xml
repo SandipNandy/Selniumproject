@@ -5,6 +5,7 @@
    <test name = "Sample test">
       <classes>
          <class name = "com.training.regression.tests.LoginDBTest" />
+         <class name = "com.training.regression.tests.LoginDBTest" />
       </classes>
    </test>
 </suite>	
