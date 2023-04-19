@@ -1,5 +1,7 @@
 package com.training.bean;
 
+
+
 /**
  * 
  * @author Naveen
@@ -27,6 +29,8 @@ public class DBBean {
 
 	public void setUrl(String url) {
 		this.url = url;
+		
+		
 	}
 
 	public String getDriver() {
