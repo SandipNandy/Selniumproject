@@ -1,10 +1,12 @@
 package com.training.utility;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+
 
 import com.training.bean.DBBean;
 
@@ -12,7 +14,8 @@ import com.training.bean.DBBean;
  * 
  * @author Naveen
  * @see will load the db details and shall be used in connection class
- */
+ *
+ **/
 public class LoadDBDetails {
 	public static DBBean getDBDetails() {
 
@@ -29,6 +32,7 @@ public class LoadDBDetails {
 			dbBean.setUserName(properties.getProperty("username", "root"));
 			dbBean.setPassword(properties.getProperty("password"));
 			
+			
 			return dbBean; 
 			
 		} catch (FileNotFoundException e) {
@@ -38,6 +42,7 @@ public class LoadDBDetails {
 		}
 
 		return null;
+		
 	}
 
 
