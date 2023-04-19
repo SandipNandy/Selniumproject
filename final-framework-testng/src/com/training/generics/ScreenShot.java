@@ -12,11 +12,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
 
+
 /**
  * 
  * @author Naveen
  * @see in this class the path for screenshot is hard coded, please refer to others.properties file 
  *   the entry is kept, and this path shall be able to change from properties file 
+ *
  */
 public class ScreenShot {
 
@@ -25,6 +27,7 @@ public class ScreenShot {
 	// the driver information will be given by selenium test case 
 	public ScreenShot(WebDriver driver){
 		this.driver = driver; 
+		
 	}
 	
 	public void captureScreenShot(){
