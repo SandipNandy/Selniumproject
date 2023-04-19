@@ -2,9 +2,11 @@ package com.training.generics;
 
 import java.util.List;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 
 /**
  * 
@@ -12,6 +14,7 @@ import org.openqa.selenium.WebElement;
  * @see this class will help when you want to do custom business logic, since  in POM we dont do 
  * 			dynamic elements available, when you want to iterate the table/accordion etc 
  * @since 17-Dec-2018 
+ *
  */
 public class GenericMethods {
 	WebDriver driver ; 
@@ -30,6 +33,7 @@ public class GenericMethods {
 	 * this method shall give provided it has single enty in the DOM
 	 */
 	public WebElement getElement(String locator, String type){
+		
 		WebElement element  = null;
 		type = type.toLowerCase();
 		
