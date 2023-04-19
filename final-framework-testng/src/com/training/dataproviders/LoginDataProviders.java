@@ -1,13 +1,17 @@
 package com.training.dataproviders;
 
+
 import java.util.List;
 
+
 import org.testng.annotations.DataProvider;
+
 
 import com.training.bean.LoginBean;
 import com.training.dao.ELearningDAO;
 import com.training.readexcel.ApachePOIExcelRead;
 import com.training.readexcel.ReadExcel;
+
 
 public class LoginDataProviders {
 
@@ -24,7 +28,10 @@ public class LoginDataProviders {
 			obj[1] = temp.getPassword(); 
 			
 			result[count ++] = obj; 
+			
 		}
+		
+		
 		
 		
 		return result;
