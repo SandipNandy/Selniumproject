@@ -1,10 +1,15 @@
 package com.training.bean;
 
+
+
 public class LoginBean {
 	private String userName;
 	private String password;
 
 	public LoginBean() {
+		
+		
+		
 	}
 
 	public LoginBean(String userName, String password) {
@@ -27,6 +32,8 @@ public class LoginBean {
 
 	public void setPassword(String password) {
 		this.password = password;
+		
+		
 	}
 
 	@Override
