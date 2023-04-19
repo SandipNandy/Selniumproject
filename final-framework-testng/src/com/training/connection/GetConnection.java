@@ -1,10 +1,12 @@
 package com.training.connection;
 
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
 
 import com.training.bean.DBBean;
 
@@ -30,5 +32,7 @@ public class GetConnection {
 	
 	public static Connection getOracleConnection(DBBean dbBean) {
 		return null;
+		
+		
 	}
 }
