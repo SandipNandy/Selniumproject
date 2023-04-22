@@ -2,6 +2,7 @@ package com.training.bean;
 
 /**
  * 
+ *
  * @author Naveen
  * @see this class shall get the bean data 
  */
