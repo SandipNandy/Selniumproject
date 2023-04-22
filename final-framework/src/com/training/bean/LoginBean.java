@@ -5,6 +5,7 @@ public class LoginBean {
 	private String password;
 
 	public LoginBean() {
+		
 	}
 
 	public LoginBean(String userName, String password) {
