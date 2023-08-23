@@ -6,6 +6,7 @@ package com.training.bean;
  * @author Naveen
  * @see this class shall get the bean data 
  */
+
 public class DBBean {
 	private String url; 
 	private String driver; 
