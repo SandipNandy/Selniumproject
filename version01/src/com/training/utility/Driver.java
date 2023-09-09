@@ -4,7 +4,8 @@ public interface Driver {
 	// KEYS 
 	String CHROME ="webdriver.chrome.driver"; 
 	
-	String FIREFOX ="webdriver.firefox.marionette"; 
+	String FIREFOX ="webdriver.firefox.marionette";
+	
 	String IE ="webdriver.ie.driver";
 	String PHANTOM="phantomjs.binary.path";
 	
