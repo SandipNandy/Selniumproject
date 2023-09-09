@@ -10,9 +10,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * 
- * @author Naveen
+ * @author Sandip
  * @see This class will load the given driver, and follows factory pattern 
- * 	@since 16-Dec-2018 
+ * 	@since 16-Dec-2019
  */
 public class DriverFactory {
 	private static WebDriver driver; 
