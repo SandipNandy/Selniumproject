@@ -7,6 +7,7 @@ public interface Driver {
 	String FIREFOX ="webdriver.firefox.marionette";
 	
 	String IE ="webdriver.ie.driver";
+	
 	String PHANTOM="phantomjs.binary.path";
 	
 	// PATH 
