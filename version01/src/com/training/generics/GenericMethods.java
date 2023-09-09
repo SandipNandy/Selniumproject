@@ -9,10 +9,10 @@ import org.openqa.selenium.WebElement;
 
 /**
  * 
- * @author Naveen
+ * @author Sandip
  * @see this class will help when you want to do custom business logic, since  in POM we dont do 
  * 			dynamic elements available, when you want to iterate the table/accordion etc 
- * @since 17-Dec-2018 
+ * @since 17-Dec-2019 
  */
 public class GenericMethods {
 	WebDriver driver ; 
