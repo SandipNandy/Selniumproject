@@ -12,6 +12,7 @@ public interface Driver {
 	
 	// PATH 
 	String CHROME_PATH="C:\\OnlineTraining\\SDET Oct 2018\\dependencies\\chromedriver.exe";
+	
 	String FIREFOX_PATH ="";
 	String IE_PATH ="";
 	String PHANTOM_PATH="";
