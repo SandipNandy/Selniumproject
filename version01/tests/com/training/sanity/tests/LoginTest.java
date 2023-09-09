@@ -2,6 +2,7 @@ package com.training.sanity.tests;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+
 import java.util.Properties;
 
 import org.junit.After;
@@ -12,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.training.generics.ScreenShot;
 import com.training.pom.LoginPOM;
+
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
