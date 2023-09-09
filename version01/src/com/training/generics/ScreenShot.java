@@ -17,7 +17,7 @@ import org.openqa.selenium.WebDriverException;
 
 /**
  * 
- * @author Naveen
+ * @author Sandip
  * @see in this class the path for screenshot is hard coded, please refer to others.properties file 
  *   the entry is kept, and this path shall be able to change from properties file 
  */
