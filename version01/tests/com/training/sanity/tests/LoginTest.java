@@ -24,6 +24,7 @@ public class LoginTest {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		
 		loginPOM = new LoginPOM(driver);
+		
 		screenShot = new ScreenShot(driver);
 		baseUrl = "http://elearning.ohbreaks.com/"; 
 		// open the browser
