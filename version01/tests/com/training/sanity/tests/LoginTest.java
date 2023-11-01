@@ -19,8 +19,6 @@ public class LoginTest {
 	private LoginPOM loginPOM;
 	private ScreenShot screenShot;
 
-
-
 	@Before
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
