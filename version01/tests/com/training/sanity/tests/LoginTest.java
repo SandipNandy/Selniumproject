@@ -22,6 +22,7 @@ public class LoginTest {
 	@Before
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
+		
 		loginPOM = new LoginPOM(driver);
 		screenShot = new ScreenShot(driver);
 		baseUrl = "http://elearning.ohbreaks.com/"; 
