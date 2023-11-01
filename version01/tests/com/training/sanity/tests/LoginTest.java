@@ -26,6 +26,7 @@ public class LoginTest {
 		loginPOM = new LoginPOM(driver);
 		
 		screenShot = new ScreenShot(driver);
+		
 		baseUrl = "http://elearning.ohbreaks.com/"; 
 		// open the browser
 		driver.get(baseUrl);
