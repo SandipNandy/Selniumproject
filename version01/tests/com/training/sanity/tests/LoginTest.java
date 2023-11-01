@@ -28,6 +28,7 @@ public class LoginTest {
 		screenShot = new ScreenShot(driver);
 		
 		baseUrl = "http://elearning.ohbreaks.com/"; 
+		
 		// open the browser
 		driver.get(baseUrl);
 	}
