@@ -5,6 +5,7 @@
 		<attributes>
 
 			<attribute name="maven.pomderived" value="true"/>
+
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" output="target/classes" path="src">
