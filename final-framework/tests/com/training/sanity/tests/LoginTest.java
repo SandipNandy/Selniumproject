@@ -13,6 +13,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 
 import org.junit.Test;
+
 import org.openqa.selenium.WebDriver;
 
 import com.training.generics.ScreenShot;
