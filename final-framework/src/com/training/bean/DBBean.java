@@ -20,7 +20,6 @@ public class DBBean {
 		this.userName = userName;
 		this.password = password;
 	}
-
 	public String getUrl() {
 		return url;
 	}
