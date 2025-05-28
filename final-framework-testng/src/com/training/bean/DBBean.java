@@ -13,6 +13,7 @@ public class DBBean {
 	private String driver;
 	
 	private String userName; 
+	
 	private String password;
 	
 	public DBBean(){}
