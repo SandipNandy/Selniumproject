@@ -9,7 +9,6 @@ public class LoginBean {
 	public LoginBean() {
 		
 		
-		
 	}
 
 	public LoginBean(String userName, String password) {
